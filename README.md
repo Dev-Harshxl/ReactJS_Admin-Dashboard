@@ -19,34 +19,33 @@ A feature-rich admin dashboard built using ReactJS, Material-UI (MUI), Syncfusio
 
 ## Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/react-admin-dashboard.git
-   cd react-admin-dashboard
+## 1. **Clone the repository**
+      ```bash
+      git clone https://github.com/yourusername/react-admin-dashboard.git
+      cd react-admin-dashboard
 
-2. Install dependencies
-    ```bash
-    npm install
+## 2. Install dependencies
+       ```bash
+       npm install
 
-3. Start the development server
-    ```bash
-    npm run start
+## 3. Start the development server
+       ```bash
+       npm run start
 
-Usage
-Theming
-The dashboard supports both light and dark themes. You can toggle between themes using the theme switcher provided in the UI.
+## Usage
+- **Theming** :  The dashboard supports both light and dark themes. You can toggle between themes using the theme switcher provided in the UI.
 
-Tables
+- **Tables** :
 Interactive tables are used to display data. You can sort, filter, and paginate the tables as needed.
 
-Charts
+- **Charts** :
 Various charts are integrated using Syncfusion for data visualization. These charts are interactive and customizable.
 
-Calendar
+- **Calendar** :
 The calendar component allows you to manage and view events. You can add, edit, and delete events.
 
-Kanban
+- **Kanban** :
 The Kanban board helps in task management. You can create tasks, move them between different stages, and track progress.
 
-Contributing
+## Contributing
 Contributions are welcome!
