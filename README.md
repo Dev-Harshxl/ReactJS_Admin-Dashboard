@@ -1,5 +1,8 @@
 # ReactJS Admin Dashboard
 
+# ![Screenshot 2024-07-21 024016](https://github.com/user-attachments/assets/18751b41-cea3-457c-bfca-8470dc73a269)
+
+
 A feature-rich admin dashboard built using ReactJS, Material-UI (MUI), Syncfusion, and ContextAPI. This project includes theming, tables, charts, a calendar, and a Kanban board.
 
 ## Features
