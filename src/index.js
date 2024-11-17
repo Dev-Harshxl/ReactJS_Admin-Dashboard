@@ -1,15 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const jsonfile=require('jsonfile');
+const moment=require('moment');
+const File_Path='./data.json';
+const DATE=moment().format();
 
-import './index.css';
-import App from './App';
-import { ContextProvider } from './contexts/ContextProvider';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <ContextProvider>
-      <App />
-    </ContextProvider>
-  </React.StrictMode>,
-  document.getElementById('root'),
-);
+const data={
+  date : DATE
+}
+jsonfile.writeFile(File_Path,data);
